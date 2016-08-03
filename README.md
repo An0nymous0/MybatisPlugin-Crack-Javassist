@@ -1,5 +1,5 @@
 # MybatisPlugin-Crack-Javassist
-Javassist实现的破解IDEA MybatisPlugin修改字节码工具
+Javassist实现的破解IDEA MybatisPlugin修改字节码工具,仅供学习用途。
 
 **使用方法:**
 
