@@ -12,6 +12,7 @@ Javassist实现的破解IDEA MybatisPlugin修改字节码工具,仅供学习用�
 ---------------
 
 新增破解Markdown Navigator
+
 1. 破解类CrackMarkdownNavigator
 2. 其他同mybatis plugin方式一样,要破解的包名为 idea-multimarkdown/lib/idea-multimarkdown.jar
 
