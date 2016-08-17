@@ -16,9 +16,10 @@ import static java.nio.file.LinkOption.NOFOLLOW_LINKS;
 /**
  * Created by An0nymous on 16/7/4.
  */
-public class Crack {
+public class CrackMybatisPlugin {
 
     /**
+     * mybatis plugin
      * 下面版本号一定要填写
      * 如:private static final String version = "2.84";
      **/
