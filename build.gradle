@@ -8,7 +8,7 @@ sourceCompatibility = 1.8
 
 repositories {
     maven  {
-        url "http://repo.maven.apache.org/maven2/"
+        url "http://120.52.72.24/repo.maven.apache.org/maven2/"
     }
 }
 
