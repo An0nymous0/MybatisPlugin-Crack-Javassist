@@ -38,11 +38,19 @@ public class MarkdownNavigator implements CrackIdeaPlugin {
             CrackUtil.crackOtherMethodNoWriteFile(pool, "com.vladsch.idea.multimarkdown.license.LicenseAgent", "isActivationExpired", "{return false;}");
             CrackUtil.crackOtherMethodNoWriteFile(pool, "com.vladsch.idea.multimarkdown.license.LicenseAgent", "isValidLicense", "{return true;}");
             CrackUtil.crackOtherMethodNoWriteFile(pool, "com.vladsch.idea.multimarkdown.license.LicenseAgent", "getLicenseExpiringIn", "{return 666;}");
-            CtClass  javaServiceClass = CrackUtil.crackOtherMethodNoWriteFile(pool, "com.vladsch.idea.multimarkdown.license.LicenseAgent", "isValidActivation", "{return true;}");
-            CtField validField = javaServiceClass.getDeclaredField("license_type");
-            javaServiceClass.removeField(validField);
+            CtClass javaServiceClass = CrackUtil.crackOtherMethodNoWriteFile(pool, "com.vladsch.idea.multimarkdown.license.LicenseAgent", "isValidActivation", "{return true;}");
+
+            javaServiceClass.removeField(javaServiceClass.getDeclaredField("license_type"));
             CtField f2 = CtField.make("private String license_type = \"license\";", javaServiceClass);
             javaServiceClass.addField(f2);
+
+            javaServiceClass.removeField(javaServiceClass.getDeclaredField("license_expires"));
+            CtField f3 = CtField.make("private String license_expires = \"2026-08-03\";", javaServiceClass);
+            javaServiceClass.addField(f3);
+
+            javaServiceClass.removeField(javaServiceClass.getDeclaredField("license_features"));
+            CtField f4 = CtField.make("private int license_features = \"1\";", javaServiceClass);
+            javaServiceClass.addField(f4);
             javaServiceClass.writeFile();
             CrackUtil.exeCmd("jar uvf " + System.getProperty("user.dir") + "/" + "crack_idea-multimarkdown.jar com/vladsch/idea/multimarkdown/license/LicenseAgent.class");
         } catch (NotFoundException e) {
