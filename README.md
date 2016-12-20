@@ -17,5 +17,3 @@ Javassist实现的破解IDEA MybatisPlugin修改字节码工具,仅供学习用�
 2. 生成好crack_idea-multimarkdown.jar后,替换即可
 
 ---------------
-
-代码比较乱后面会重构 方便大家阅读学习~
