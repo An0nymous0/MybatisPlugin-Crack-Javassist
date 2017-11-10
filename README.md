@@ -5,6 +5,7 @@ Javassist实现的破解IDEA MybatisPlugin修改字节码工具,仅供学习用�
 https://github.com/An0nymous0/MybatisPlugin-Crack-Javassist/blob/master/src/jar/iMybatis-3.21.jar?raw=true
 目前仅提供3.21版本的jar包
 
+# 旧版本破解方法
 **使用方法:**
 
 1. 把要破解的mybatis_plus.jar放到lib目录下
