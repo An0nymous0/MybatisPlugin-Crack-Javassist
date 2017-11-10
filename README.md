@@ -1,11 +1,11 @@
 # MybatisPlugin-Crack-Javassist
 Javassist实现的破解IDEA MybatisPlugin修改字节码工具,仅供学习用途。
 
-# 关于mybatis plus 3.x版本目前放出了测试版本的jar包，请直接替换。
+# 关于mybatis plugin 3.x版本目前放出了测试版本的jar包，请直接替换。
 https://github.com/An0nymous0/MybatisPlugin-Crack-Javassist/blob/master/src/jar/iMybatis-3.21.jar?raw=true
 目前仅提供3.21版本的jar包
 
-# mybatis plus 2.x破解方法，Markdown Navigator不受影响
+# mybatis plugin 2.x破解方法，Markdown Navigator不受影响
 **使用方法:**
 
 1. 把要破解的mybatis_plus.jar放到lib目录下
