@@ -25,6 +25,6 @@ https://github.com/An0nymous0/MybatisPlugin-Crack-Javassist/blob/master/src/jar/
 
 ---------------
 
-
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FAn0nymous0%2FMybatisPlugin-Crack-Javassist.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FAn0nymous0%2FMybatisPlugin-Crack-Javassist?ref=badge_large)
+
