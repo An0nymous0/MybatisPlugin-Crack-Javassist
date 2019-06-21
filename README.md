@@ -1,4 +1,6 @@
 # MybatisPlugin-Crack-Javassist
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FAn0nymous0%2FMybatisPlugin-Crack-Javassist.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FAn0nymous0%2FMybatisPlugin-Crack-Javassist?ref=badge_shield)
+
 Javassist实现的破解IDEA MybatisPlugin修改字节码工具,仅供学习用途。
 
 # 关于mybatis plugin 3.x版本目前放出了测试版本的jar包，请直接替换。
@@ -22,3 +24,7 @@ https://github.com/An0nymous0/MybatisPlugin-Crack-Javassist/blob/master/src/jar/
 2. 生成好crack_idea-multimarkdown.jar后,替换即可
 
 ---------------
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FAn0nymous0%2FMybatisPlugin-Crack-Javassist.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FAn0nymous0%2FMybatisPlugin-Crack-Javassist?ref=badge_large)
