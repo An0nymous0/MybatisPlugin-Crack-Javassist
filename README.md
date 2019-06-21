@@ -22,3 +22,5 @@ https://github.com/An0nymous0/MybatisPlugin-Crack-Javassist/blob/master/src/jar/
 2. 生成好crack_idea-multimarkdown.jar后,替换即可
 
 ---------------
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAn0nymous0%2FMybatisPlugin-Crack-Javassist.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FAn0nymous0%2FMybatisPlugin-Crack-Javassist?ref=badge_large)
